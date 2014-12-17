@@ -1,0 +1,88 @@
+/**
+ * $LANDING
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+
+ .container{
+ 	background: url('../img/template-landing.jpg') no-repeat;
+ 	background: url('../img/main-bg.jpg') no-repeat center bottom;
+ 	border: thin black solid;
+ 	height: 1334px;
+ 	width: 750px;
+ 	padding: 0;
+ }
+
+ .header{
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+
+ .page-core{
+ 	
+ 	.three-card{
+ 		display: inline-block;
+ 		margin: 20px;
+ 		margin-right: 0px;
+ 		vertical-align: top;
+ 	}
+
+ 	.landing-descript{
+ 		display: inline-block;
+		// border: thin black solid;
+		color: black;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		width: 420px;
+		vertical-align: top;
+		margin-top: 30px;
+		text-align: center;
+		margin-left: -25px;
+		width: 430px;
+ 	}
+
+ 	.enter-btn{
+ 		margin-left:10px;
+ 	}
+
+ }
+ 
+ .footer{
+ 		background-color: #cf4896;
+ 		height: 240px;
+ 		color: white;
+ 		position: absolute;
+ 		bottom: 0px;
+ 		padding: 30px;
+
+ 		.travel-logos{
+ 			margin-bottom: 20px;
+ 			display: inline-block; 
+ 			vertical-align: top;
+ 			span{
+ 				margin: 5px 15px 5px 0px;
+ 			}
+ 		}
+
+ 		.suitcases{
+ 			position: absolute;
+			right: 0px;
+			top: 10px;
+
+ 		}
+
+ 		.legal-links{
+ 			a{
+ 				color: white; 
+ 				font-size: 22px;
+ 				text-decoration: underline;
+ 			}
+ 		}
+
+ 		.legal{
+ 			font-size: 14px;
+			line-height: 15px;
+			margin-top: 50px;
+ 		}
+ 	}
