@@ -1706,10 +1706,9 @@ td {
  * This is a placeholder and example for a view.
  */
 .container {
-  background: url("../img/template-landing.jpg") no-repeat;
-  background: url("../img/main-bg.jpg") no-repeat center bottom;
+  background-color: white;
   border: thin black solid;
-  height: 1334px;
+  height: 1394px;
   width: 750px;
   padding: 0;
 }
@@ -1719,6 +1718,10 @@ td {
   margin-top: 30px;
 }
 
+.page-core {
+  background: url("../img/main-bg.jpg") no-repeat center bottom;
+  height: 968px;
+}
 .page-core .three-card {
   display: inline-block;
   margin: 20px;
@@ -1761,16 +1764,20 @@ td {
   position: absolute;
   right: 0px;
   top: 10px;
+  width: 280px;
+}
+.footer .legal-links {
+  font-size: 22px;
 }
 .footer .legal-links a {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: underline;
 }
 .footer .legal {
-  font-size: 14px;
-  line-height: 15px;
-  margin-top: 50px;
+  font-size: 13px;
+  line-height: 14px;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
