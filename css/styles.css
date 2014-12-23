@@ -1780,4 +1780,56 @@ td {
   margin-top: 15px;
 }
 
+/**
+ * $ENTRY
+ * ==========================================================================
+ */
+.entry .header {
+  margin: 0;
+}
+.entry .page-core {
+  height: 1015px;
+}
+.entry .page-core {
+  margin: 0;
+}
+.entry h2 {
+  color: black;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+  text-align: center;
+}
+.entry .fields-ctnr input[type=text] {
+  border: none;
+  width: 577px;
+  height: 69px;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px auto;
+  background-color: transparent;
+  background-image: url("../img/field-bg.png");
+  background-repeat: no-repeat;
+}
+.entry .fields-ctnr input:first-child {
+  margin-top: 0px;
+}
+.entry .rule {
+  height: 2px;
+  background-image: url("../img/hr-dash.png");
+  bacgkground-repat: repeat-x;
+  width: 580px;
+  margin: 0 auto;
+}
+.entry .citation {
+  color: white;
+  text-align: center;
+}
+.entry .footer {
+  height: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
